@@ -1,0 +1,57 @@
+{
+  "optimization_config": {
+    "algorithm": "NSGA-II",
+    "population_size": 100,
+    "generations": 50,
+    "decision_vector_length": 3,
+    "candidate_order": [
+      "REQ-101_TEST-201",
+      "REQ-101_TEST-202",
+      "REQ-102_TEST-203"
+    ]
+  },
+  "pareto_solutions": [
+    {
+      "solution_id": "Sol-1",
+      "rank": 1,
+      "decision_vector_z": [1, 0, 1],
+      "objective_values": {
+        "precision": 0.905,
+        "recall_coverage": 1.0,
+        "inspection_cost": 2
+      },
+      "selected_links": [
+        "REQ-101_TEST-201",
+        "REQ-102_TEST-203"
+      ]
+    },
+    {
+      "solution_id": "Sol-2",
+      "rank": 1,
+      "decision_vector_z": [1, 1, 1],
+      "objective_values": {
+        "precision": 0.796,
+        "recall_coverage": 1.0,
+        "inspection_cost": 3
+      },
+      "selected_links": [
+        "REQ-101_TEST-201",
+        "REQ-101_TEST-202",
+        "REQ-102_TEST-203"
+      ]
+    },
+    {
+      "solution_id": "Sol-3",
+      "rank": 1,
+      "decision_vector_z": [1, 0, 0],
+      "objective_values": {
+        "precision": 0.92,
+        "recall_coverage": 0.5,
+        "inspection_cost": 1
+      },
+      "selected_links": [
+        "REQ-101_TEST-201"
+      ]
+    }
+  ]
+}

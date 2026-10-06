@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "dataset": "CoEST_RTM_Benchmark",
+    "total_candidates": 4,
+    "feature_schema": [
+      "tfidf_similarity",
+      "structural_distance",
+      "commit_time_delta_hours"
+    ]
+  },
+  "candidates": [
+    {
+      "pair_id": "REQ-101_TEST-201",
+      "requirement_id": "REQ-101",
+      "test_id": "TEST-201",
+      "feature_vector": {
+        "tfidf_similarity": 0.84,
+        "structural_distance": 2.0,
+        "commit_time_delta_hours": 1.5
+      },
+      "predicted_probability": 0.92,
+      "passed_x_filter": true
+    },
+    {
+      "pair_id": "REQ-101_TEST-202",
+      "requirement_id": "REQ-101",
+      "test_id": "TEST-202",
+      "feature_vector": {
+        "tfidf_similarity": 0.61,
+        "structural_distance": 4.0,
+        "commit_time_delta_hours": 12.0
+      },
+      "predicted_probability": 0.58,
+      "passed_x_filter": true
+    },
+    {
+      "pair_id": "REQ-102_TEST-203",
+      "requirement_id": "REQ-102",
+      "test_id": "TEST-203",
+      "feature_vector": {
+        "tfidf_similarity": 0.78,
+        "structural_distance": 1.0,
+        "commit_time_delta_hours": 0.5
+      },
+      "predicted_probability": 0.89,
+      "passed_x_filter": true
+    },
+    {
+      "pair_id": "REQ-102_TEST-204",
+      "requirement_id": "REQ-102",
+      "test_id": "TEST-204",
+      "feature_vector": {
+        "tfidf_similarity": 0.12,
+        "structural_distance": 9.0,
+        "commit_time_delta_hours": 140.0
+      },
+      "predicted_probability": 0.08,
+      "passed_x_filter": false
+    }
+  ]
+}
